@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function policzElementy() {
   const wszystkie = document.getElementsByClassName("meme-placeholder");
   const wszystkie_ile = wszystkie.length;
-  document.getElementById("site_title").textContent = "Wszystkie (" + wszystkie_ile + ")";
+  document.getElementById("site-title").textContent = "Wszystkie (" + wszystkie_ile + ")";
   // const religijne = document.getElementsByClassName("religijne");
   // const religijne_ile = religijne.length;
   // document.getElementById("religijne_button").textContent = "Religijne (" + religijne_ile + ")";
