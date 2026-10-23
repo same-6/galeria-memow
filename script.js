@@ -30,22 +30,22 @@ document.addEventListener("DOMContentLoaded", () => {
 function policzElementy() {
   const wszystkie = document.getElementsByClassName("meme-placeholder");
   const wszystkie_ile = wszystkie.length;
-  document.getElementById("wszystkie_button").textContent = "Wszystkie (" + wszystkie_ile + ")";
-  const religijne = document.getElementsByClassName("religijne");
-  const religijne_ile = religijne.length;
-  document.getElementById("religijne_button").textContent = "Religijne (" + religijne_ile + ")";
-  const szachowe = document.getElementsByClassName("szachowe");
-  const szachowe_ile = szachowe.length;
-  document.getElementById("szachowe_button").textContent = "Szachowe (" + szachowe_ile + ")";
-  const polityczne = document.getElementsByClassName("polityczne");
-  const polityczne_ile = polityczne.length;
-  document.getElementById("polityczne_button").textContent = "Polityczne (" + polityczne_ile + ")";
-  const szkolne = document.getElementsByClassName("szkolne");
-  const szkolne_ile = szkolne.length;
-  document.getElementById("szkolne_button").textContent = "Szkolne (" + szkolne_ile + ")";
-  const angielski = document.getElementsByClassName("angielski");
-  const angielski_ile = angielski.length;
-  document.getElementById("angielski_button").textContent = "Po angielsku (" + angielski_ile + ")";
+  document.getElementById("site_title").textContent = "Wszystkie (" + wszystkie_ile + ")";
+  // const religijne = document.getElementsByClassName("religijne");
+  // const religijne_ile = religijne.length;
+  // document.getElementById("religijne_button").textContent = "Religijne (" + religijne_ile + ")";
+  // const szachowe = document.getElementsByClassName("szachowe");
+  // const szachowe_ile = szachowe.length;
+  // document.getElementById("szachowe_button").textContent = "Szachowe (" + szachowe_ile + ")";
+  // const polityczne = document.getElementsByClassName("polityczne");
+  // const polityczne_ile = polityczne.length;
+  // document.getElementById("polityczne_button").textContent = "Polityczne (" + polityczne_ile + ")";
+  // const szkolne = document.getElementsByClassName("szkolne");
+  // const szkolne_ile = szkolne.length;
+  // document.getElementById("szkolne_button").textContent = "Szkolne (" + szkolne_ile + ")";
+  // const angielski = document.getElementsByClassName("angielski");
+  // const angielski_ile = angielski.length;
+  // document.getElementById("angielski_button").textContent = "Po angielsku (" + angielski_ile + ")";
 }
 
 policzElementy();
